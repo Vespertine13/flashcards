@@ -1,7 +1,7 @@
 # flash card function
 # functionality
 # take in a csv or parquet
-# give first a random word and then when prompted again give the "translation"
+# give first a random word abnd then when prompted again give the "translation"
 source("config.R")
 
 data <- read.table(file = path, header = TRUE, sep = ";", encoding = "UTF-8")
